@@ -35,7 +35,7 @@ public class Server {
             int seconMax = secondMostAppearTheNumbers(map);
             char secondCharacter = secondMostAppearCharacter(map, seconMax);
 
-//            System.out.println(plainText);
+            System.out.println(plainText);
 //            for(char c : map.keySet()) {
 //                System.out.println(c + " " + map.get(c));
 //            }
@@ -62,7 +62,7 @@ public class Server {
         int max = 0;
         int secondMax = 0;
         char ch = '-';
-        for (char c : map.keySet()) {
+        for (char c : map.keySet()) { 
             if (map.get(c) > max) {
                 secondMax = max;
                 max = map.get(c);
